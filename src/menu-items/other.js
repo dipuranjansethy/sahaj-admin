@@ -59,7 +59,15 @@ const other = {
       url: '/shop-categories-control',
       icon: icons.IconApps,
       breadcrumbs: false
-    }
+    },
+    {
+      id: 'userActivity',
+      title: 'User Activity',
+      type: 'item',
+      url: '/user-activity',
+      icon: icons.IconUserCircle,
+      breadcrumbs: false
+    },
   ]
 };
 

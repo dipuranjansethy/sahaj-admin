@@ -33,6 +33,7 @@ import ListSubadmins from 'views/Subadmin/ListSubadmins';
 import AppBanner from 'views/App/AppBanner';
 import CategoriesSelection from 'views/CategotyControl/CategoryControl';
 import ShopCategoriesSelection from 'views/ShopCategotyControl/ShopCategoryControl';
+import UserActivity from 'views/useractivity/UserActivity';
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
@@ -145,6 +146,10 @@ const MainRoutes = {
     {
       path: '/shop-categories-control',
       element: <ShopCategoriesSelection />
+    },
+    {
+      path: '/user-activity',
+      element: <UserActivity/>
     },
   ]
 };
