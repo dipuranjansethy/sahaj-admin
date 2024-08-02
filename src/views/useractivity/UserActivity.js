@@ -23,6 +23,10 @@ const UserActivity = () => {
           <p>User Phone: {notification.userId.Mobile}</p>
           <p>Business Phone: {notification.merchantId.phoneNumber}</p>
           <p>Searched Query: {notification.query}</p>
+          <p>User Address: {notification.userId.address}</p>
+          <p>Bussinness Address: {`${notification.merchantId.landmark},${notification.merchantId.area},${notification.merchantId.city},${notification.merchantId.state},${notification.merchantId.pincode}`}</p>
+          {/* <p>Date: {`${notification.date}`}</p> */}
+
         </div>
       ))}
     </div>
